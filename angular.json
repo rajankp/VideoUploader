@@ -13,7 +13,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "vu",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
@@ -103,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "319aee12-915c-43b9-93ff-666ffa77c44e"
   }
 }

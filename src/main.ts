@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
+import { vuConfig } from './vu/vu.config';
+import { BaseComponent } from './vu/base.component';
 
-bootstrapApplication(AppComponent, appConfig)
+bootstrapApplication(BaseComponent, vuConfig)
   .catch((err) => console.error(err));
